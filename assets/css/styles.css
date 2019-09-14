@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic,700,700normal,700italic,600");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300");
+
+@import url("https://fonts.googleapis.com/css?family=Nova+Slim");
+@import url("https://fonts.googleapis.com/css?family=Gayathri:100&display=swap");
+
+#sidebar{
+    font-family: 'Gayathri', sans-serif;
+
+    width: 200px;
+    height: 110%;
+    
+    position: fixed;
+    background: #151719;
+    
+    margin: -10px auto;
+    padding: 0px;
+    
+    left: -200px;
+    transition: all 500ms linear;
+}
+
+#sidebar.active{
+    left: 0px;
+}
+
+#sidebar ul li{
+    color:rgb(230,230,230,.9);
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100,100,100,.3);
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    left: 230px;
+    right: 20px;
+    top: 10px;
+}
+
+#sidebar .toggle-btn span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #151719;
+    margin: 3px 0px;
+}
+
+.everything {
+    
+    padding: 3em 25em;
+    background-color: #ffffff;
+    max-width: 55rem;
+    margin: 0 auto;
+
+    /*
+      display: flex;
+    flex-direction: column;
+      justify-content: flex-start;
+    */
+    font-family: 'Gayathri', sans-serif;
+}
+
+a, a:active, a:hover,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info h1 {
+    font-size: 40px;
+}
+
+.info nav {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.top-header {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+}
+
+.top-header p {
+    font-size: 13px;
+}
+
+#headshot-photo img{
+    padding: 1em;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%
+}
+
+.bio {
+    font-family: "Roboto Mono", monospace;
+    font-size: 13px;
+}
+
+.bio h2 {
+    text-align: center;
+}
+
+.bio a {
+    text-decoration-color: grey;
+    text-decoration: underline;
+}
+
+.projects {
+    overflow: auto;
+    width: 110%;
+    margin: right;
+}
+
+.projects a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.projects img {
+    width:  200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.icon-bar {
+      overflow: auto;
+}
+
+.icon-bar a {
+      float: right;
+      text-align: center; 
+      width: 5%;
+      font-size: 24px;
+}
+
+
+
+

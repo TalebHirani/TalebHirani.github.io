@@ -1,1 +1,80 @@
-Hello World
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <!-- TODO: Add Icon -->
+    <title> Taleb Hirani </title>
+</head>
+<div id="nav_menu"> </div>
+<script>
+    $(function () {
+        $("nav_menu").load("navigation.html");
+    });
+</script>
+<div class="everything">
+
+    <body>
+        <div class="info">
+            <a href="index.html">
+                <h1> Taleb Hirani </h1>
+            </a>
+            <nav>
+                <!--
+                <a href="projects.html">Projects </a>
+                <a href="resume.html">Resume</a>
+                -->
+                <a href="lab02.html">Lab02</a>
+                <!-- TODO: Add GitHub -->
+                <!-- TODO: Add LinkedIn -->
+                <!-- TODO: Add Resume Download -->
+            </nav>
+        </div>
+
+        <div class="top-header">
+            <h2>HELLO.</h2>
+            <p>I'm Taleb, a robotics nerd and Computer Science student at Georgia Tech.</p>
+        </div>
+
+        <div id="headshot-photo">
+            <img src="img_headshot.jpg">
+        </div>
+
+        <div class="bio">
+            <p>
+                Stuff I have worked on in the past:
+            </p>
+            <ul>
+                <li><a href="Lab02.html/">Malware Analysis</a></li>
+                <li>Cyber Forensics</li>
+                <li>Autonomous Movement of Holonomic Vehicles</li>
+                <li>Application development</li>
+            </ul>
+            <h2>Past Projects</h2>
+        </div>
+        <div class="projects">
+            <a href="/FRC-2019/"><img src="img_frc2019.jpg">
+                <p>FIRST Robotics 2019</p>
+            </a>
+            <a href="/GTRI-2018/"><img src="img_gtri.jpg">
+                <p>GTRI Internship 2018</p>
+            </a>
+            <a href="/FRC-2018/"><img id="FRC-2018_img" src="img_frc2018.jpg">
+                <p>FIRST Robotics 2018</p>
+            </a>
+        </div>
+        <div class="icon-bar">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/TalebHirani"><i class="fa fa-github"></i></a>
+        </div>
+
+        <script src="assets/js/script.js"></script>
+</div>
+</body>
+
+</html>
